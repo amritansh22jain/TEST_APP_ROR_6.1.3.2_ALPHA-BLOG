@@ -4,6 +4,8 @@ require "rails/test_help"
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
+  #commented the below code as it was giving below error
+  #ActiveRecord::StatementInvalid: SQLite3::BusyException: database is locked
   #parallelize(workers: :number_of_processors, with: :threads)
 
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
